@@ -1,6 +1,5 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client({disableEveryone : true});
-require('dotenv/config')
 bot.on('ready', async () => {
 	var channel = bot.channels.get(process.env.channel);
       var interval = setInterval (function () {
