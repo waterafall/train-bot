@@ -1,0 +1,13 @@
+{
+  "name": "train-bot",
+  "description": "train bot",
+  "version": "0.0.1",
+  "main": "trainbot.js",
+  "scripts": {
+    "start": "node trainbot.js"
+  },
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
+  }
+}
