@@ -7,6 +7,6 @@ bot.on('ready', async () => {
         channel.send("t!tg play");
         channel.send("t!tg feed");
         channel.send("t!tg clean");
-      }, 10 * 1200); 
+      }, 20 * 1200); 
 });
 bot.login(process.env.token);
